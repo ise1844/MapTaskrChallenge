@@ -10,6 +10,7 @@ Launch your browser, and enter localhost/*nameofdirectory* into the address bar.
 This will display my Contact Us web page.
 
 *EXTRA*
+
 Hi guys,
 I came home and wanted to try out doing the same thing with React.js.
 The content is located within *src/* and */api* directories.
