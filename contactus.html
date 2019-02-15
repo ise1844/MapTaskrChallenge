@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <t>Contact us</t>
+    </head>
+
+    <body>
+        <div class="container">
+            <form id="contact" action="email.php" method="post" enctype="text/plain">
+                <fieldset>
+                    <input placeholder="Your name" name="name" type="text" tabindex="1" minlength="4" maxlength="30" required autofocus>
+                </fieldset>
+
+                <fieldset>
+                    <input placeholder="Your email eg: ilja@ilja.com" name="email" type="email" tabindex="2" pattern="[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*" required>
+                </fieldset>
+
+                <fieldset>
+                    <input placeholder="Phone" type="number" name="number" minlength="8" maxlength="10" tabindex="3" pattern="/\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})/" required>
+
+                </fieldset>
+
+                <fieldset>
+                    <input placeholder="Address" type="text" name="address" minlength="5" maxlength="40" tabindex="4" required>
+                </fieldset>
+
+                <fieldset>
+                    <input placeholder="Date of Birth" type="date" name="date" tabindex="5" required>
+                </fieldset>
+
+                <fieldset>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="Sending">Submit</button>
+                </fieldset>
+
+                <fieldset>
+                    <button name="reset" type="reset" id="reset">Reset</button>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
