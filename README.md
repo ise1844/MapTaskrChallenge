@@ -9,4 +9,9 @@ After launching WAMP, drag my directory of files into a new folder within the di
 Launch your browser, and enter localhost/*nameofdirectory* into the address bar.
 This will display my Contact Us web page.
 
-
+#Additional
+Hi guys,
+I came home and wanted to try out doing the same thing with React.js.
+The content is located within *src/* and */api* directories.
+To use them, start a react app and drop those files in there.
+It isn't perfect and doesn't function fully (axios won't accept the directory of the index.php regardless of its location)
